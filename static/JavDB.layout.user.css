@@ -1,6 +1,6 @@
 .actors {
   --xs-grid-cols: 2;
-  --sm-grid-cols: 3;
+  --sm-grid-cols: 5;
   --md-grid-cols: 4;
   --lg-grid-cols: 5;
   --xl-grid-cols: 6;
@@ -8,17 +8,17 @@
 }
 
 .movie-list {
-  --xs-grid-cols: 2;
-  --sm-grid-cols: 2;
+  --xs-grid-cols: 1;
+  --sm-grid-cols: 1;
   --md-grid-cols: 2;
   --lg-grid-cols: 2;
-  --xl-grid-cols: 2;
-  --xxl-grid-cols: 2;
+  --xl-grid-cols: 3;
+  --xxl-grid-cols: 3;
 }
 
 .movie-list.v {
   --xs-grid-cols: 2;
-  --sm-grid-cols: 3;
+  --sm-grid-cols: 5;
   --md-grid-cols: 4;
   --lg-grid-cols: 5;
   --xl-grid-cols: 5;
