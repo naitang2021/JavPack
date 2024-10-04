@@ -134,8 +134,8 @@ video:focus-visible {
   & > :is(img, video) {
     position: absolute;
     inset: 0;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     max-height: unset;
   }
