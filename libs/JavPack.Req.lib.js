@@ -1,5 +1,5 @@
 class Req {
-  static defaultDetails = { method: "GET", timeout: 100000 };
+  static defaultDetails = { method: "GET", timeout: 300000000 };
 
   static isPlainObj = (obj) => Object.prototype.toString.call(obj) === "[object Object]";
 
