@@ -317,8 +317,8 @@ const offline = async ({ options, magnets, onstart, onprogress, onfinally }, cur
     const inMagnetsStr = inMagnets.map(renderAction).join("");
     const magnetsNode = document.querySelector("#magnets-content");
 
-    const insert = (node) => node.querySelector(".buttons.column").insertAdjacentHTML("beforeend", inMagnetsStr);
-    const insertMagnets = () => magnetsNode.querySelectorAll(".item.columns").forEach(insert);
+    const insert = (node) => node.querySelector(".buttons").insertAdjacentHTML("beforeend", inMagnetsStr);
+    const insertMagnets = () => magnetsNode.querySelectorAll(".item").forEach(insert);
 
     window.addEventListener("JavDB.magnet", insertMagnets);
     insertMagnets();
